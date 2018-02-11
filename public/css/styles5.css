@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2eec96;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(28, minmax(200px, 1fr));
+  grid-gap: 25px;
+  padding: 45px;
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-out;
+}
+.card:nth-child(1),
+.card:nth-child(5),
+.card:nth-child(7) {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+ 
+}
