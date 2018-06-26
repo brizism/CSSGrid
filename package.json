@@ -1,0 +1,22 @@
+{
+  "name": "cssgrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass public/sass/main3.scss public/css/styles4.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brizism/CSSGrid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brizism/CSSGrid/issues"
+  },
+  "homepage": "https://github.com/brizism/CSSGrid#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
